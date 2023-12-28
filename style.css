@@ -7,6 +7,10 @@ body {
     width: 100%;
     height: auto;
 }
+.links {
+    text-align: center;
+    font-size: larger;
+}
 h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
@@ -29,8 +33,15 @@ h2 {
     
     
   }
+  .column2 {
+    float: left;
+    width: 33%;
+    
+    
+  }
 
   .row {
+    
     padding: 25px;
   }
 
