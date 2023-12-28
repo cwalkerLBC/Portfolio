@@ -1,0 +1,49 @@
+
+body {
+    padding-left: 80px;
+    padding-right: 40px;
+}
+.banner {
+    width: 100%;
+    height: auto;
+}
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-style: normal;
+}
+h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+#subhead {
+    text-align: center;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    
+    
+  }
+
+  .row {
+    padding: 25px;
+  }
+
+  .row::after {
+    content:"";
+    display: table;
+    clear: both;
+    padding: 5px;
+
+  }
+
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
